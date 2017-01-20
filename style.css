@@ -1,0 +1,88 @@
+body{
+  font-family: Arial;
+  font-size: 24px;
+  color: white;
+  background-image: url(images/cassette.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.control{
+  text-align: center;
+}
+#play {
+  background-image: url(images/play.png);
+  background-size: cover;
+  height:200px;
+  width: 200px;
+  display: inline-block;
+}
+#play:active{
+  height:150px;
+  width: 150px;
+  text-align: center;
+}
+#pause{
+  background-image: url(images/pause.png);
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+#pause:active{
+  height: 150px;
+  width: 150px;
+}
+#rewind {
+  background-image: url(images/rewind.png);
+  background-size: cover;
+  height:200px;
+  width: 200px;
+  display: inline-block;
+}
+#rewind:active{
+  height:150px;
+  width: 150px;
+  text-align: center;
+}
+#forward {
+  background-image: url(images/forward.png);
+  background-size: cover;
+  height:200px;
+  width: 200px;
+  display: inline-block;
+}
+#forward:active{
+  height:150px;
+  width: 150px;
+  text-align: center;
+}
+#stop {
+  background-image: url(images/stop.png);
+  background-size: cover;
+  height:200px;
+  width: 200px;
+  display: inline-block;
+}
+
+#stop:active{
+  height: 150px;
+  width: 150px;
+}
+#shuffle {
+  background-image: url(images/shuffle.png);
+  background-size: cover;
+  height:150px;
+  width: 150px;
+  display: inline-block;
+}
+#shuffle:active{
+  height: 125px;
+  width: 125px;
+}
+
+.spotifySearch{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 8px;
+}
